@@ -178,7 +178,7 @@ def main():
     # ========================================
     # Find all incomes >= Rs. 4,300,000 (highest tax bracket)
 
-    high_earners = high_earners = list(filter(lambda x: x >= 4300000, incomes))  # YOUR CODE HERE - replace with filter()
+    high_earners = list(filter(lambda x: x >= 4300000, incomes))  # YOUR CODE HERE - replace with filter()
 
 
     # ========================================
